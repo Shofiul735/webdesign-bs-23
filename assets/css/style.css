@@ -259,3 +259,70 @@ body {
   border-bottom: 1px solid #e7e4e4;
 }
 /* Skills section end */
+
+/* Project section start */
+.projects {
+  margin: 1.5rem auto;
+}
+.projects h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #fff;
+}
+
+.projects-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1rem;
+  transition: all 0.4s;
+}
+.projects-row:hover .project-col {
+  transform: scale(0.97);
+}
+.project-col {
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.project-col:hover {
+  outline: 5px solid #28b485;
+  outline-offset: 7px;
+  transform: translateY(-5px);
+}
+
+.project-col .project-col__image {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.project-col .project-col__image img {
+  width: 200px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+.project-col .project-col__image img:hover {
+  filter: blur(1px) drop-shadow(2px 4px 6px black);
+}
+.project-col__details {
+}
+.project-col__details p {
+  text-align: justify;
+  margin-bottom: 10px;
+  color: #515151;
+}
+.project-col__link {
+}
+.project-col__link button {
+  padding: 10px 15px;
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.project-col__link button:hover {
+  background: #ccc;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 1px 0px #938e8e;
+}
+/* Project section end */
