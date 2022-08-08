@@ -1,6 +1,23 @@
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
   .projects-row {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .social-media {
+    width: 100%;
+  }
+  .footer-section {
+    flex-direction: column;
+  }
+  .social-media ul {
+    gap: 10px 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .social-media ul:last-child {
+    margin-bottom: 10px;
+  }
+  .credit p {
+    padding-top: 15px;
   }
 }
 
@@ -13,5 +30,21 @@
   }
   .projects-row {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .social-media {
+    width: 100%;
+  }
+  .footer-section {
+    flex-direction: column;
+  }
+  .social-media ul {
+    gap: 10px 0;
+    flex-direction: column;
+  }
+  .social-media ul:last-child {
+    margin-bottom: 10px;
+  }
+  .credit p {
+    padding-top: 15px;
   }
 }

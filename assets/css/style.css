@@ -361,7 +361,6 @@ body {
   border-top: 1px solid #ccc;
 }
 .credit p strong {
-  background-color: #ccc;
   padding: 5px;
   border-radius: 10px;
   transition: all 0.4s;
