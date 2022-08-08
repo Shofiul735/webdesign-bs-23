@@ -326,3 +326,50 @@ body {
   box-shadow: 0 1px 0px #938e8e;
 }
 /* Project section end */
+
+/* Footer section start */
+.footer-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.social-media {
+  width: 40%;
+}
+.social-media ul {
+  list-style: none;
+  display: flex;
+  gap: 0 10px;
+  border-top: 1px solid #ccc;
+  justify-content: center;
+  margin-right: 5px;
+  padding-top: 5px;
+}
+.social-media ul li {
+  cursor: pointer;
+  background: #ccc;
+  padding: 5px 7px;
+  border-radius: 5px;
+  transition: all 0.4s;
+}
+.social-media ul li:hover {
+  transform: rotate(15deg);
+}
+
+.credit p {
+  padding-top: 5px;
+  border-top: 1px solid #ccc;
+}
+.credit p strong {
+  background-color: #ccc;
+  padding: 5px;
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+
+.credit p strong:hover {
+  display: inline-block;
+  transform: rotate(15deg);
+}
+
+/* Footer section end */
