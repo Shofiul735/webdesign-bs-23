@@ -1,6 +1,10 @@
 /* Extra */
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap");
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   background: #ccc;
   color: #272727;
@@ -150,3 +154,33 @@ body {
 .sub-nav:hover {
   display: block;
 }
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* Banner design start */
+
+.banner {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 90vh;
+}
+.banner-text {
+}
+.banner-text h1 {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+.banner-text p {
+  color: #515151;
+  font-size: 1rem;
+}
+.banner-image {
+}
+
+/* Banner design end */
