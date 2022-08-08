@@ -2,4 +2,7 @@
   .banner {
     flex-flow: column-reverse;
   }
+  .skills-rows {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
