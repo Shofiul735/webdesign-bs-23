@@ -217,6 +217,13 @@ body {
   color: #515151;
 }
 
+#about-me-id {
+  transition: all 0.4s;
+}
+#about-me-id:hover {
+  transform: translateY(-5px);
+}
+
 /* About Me section end */
 
 /* Skills section start */
